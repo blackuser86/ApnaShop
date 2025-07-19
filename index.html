@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profeshnal Website Development| Ibrahim</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <div class="container">
+    <div class="logo">YourLogo</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="https://wa.me/8653254692">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </div>
+</head>
+<body>
+    <!-- थीम टॉगलर -->
+    <button id="theme-toggle" class="theme-btn">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- नेविगेशन बार (अपडेटेड) -->
+    <nav class="sticky">
+        <div class="logo">
+            <span class="logo-text">WebWizard</span>
+            <span class="verified-badge"><i class="fas fa-check-circle"></i></span>
+        </div>
+        
+        <a href="https://wa.me/8653254692" class="whatsapp-float">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </nav>
+
+    <!-- हीरो सेक्शन (अपडेटेड) -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Give Your Business<span class="highlight"> Digital Wings</span> !</h1>
+            <p>5+ Year Exprince | 200+ Clients | 100% Custom Solutions</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="cta-button">Free Consultation</a>
+                <a href="tel:+91 8653254692" class="cta-button secondary" id="fff"><i class="fas fa-phone"></i> Make a Call</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/look.jpg" style="height: 400px; width: 240px;" alt="वेब डेवलपमेंट">
+        </div>
+    </section>
+
+    <!-- ट्रस्ट बैजेस (नया सेक्शन) -->
+    <section class="trust-badges">
+        <div class="badge"><i class="fas fa-shield-alt"></i>     100% Secure</div>
+        <div class="badge"><i class="fas fa-clock"></i>      Timely Delivery</div>
+        <div class="badge"><i class="fas fa-headset"></i> 24/7 Support</div>
+    </section>
+
+    <!-- सर्विसेज (अपडेटेड) -->
+    <section id="services" class="services">
+        <h2 class="section-title"> Our<span class="highlight"> Services</span></h2>
+        <div class="service-cards">
+            <!-- कार्ड 1 -->
+            <div class="card">
+                <div class="card-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Website Development</h3>
+                <p>HTML, CSS, Java_Script, React, Node.js, Python, etc...</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 95%"></div>
+                </div>
+            </div>
+            <!-- कार्ड 2 -->
+            <div class="card">
+                <div class="card-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <h3>E-Commerce Solutions</h3>
+                <p>Woocommerce, Shopify, Custom Payment Gateway, etc...</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%"></div>
+                </div>
+            </div>
+            <!-- कार्ड 3 -->
+            <div class="card">
+                <div class="card-icon">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <h3>Responsive Design</h3>
+                <p>Website that looks perfect on all devices</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 98%"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- टेस्टिमोनियल्स (नया सेक्शन) -->
+    <section class="testimonials">
+        <h2 class="section-title">Client<span class="highlight"> Review</span></h2>
+        <div class="testimonial-cards">
+            <div class="testimonial">
+                <div class="client-info">
+                    <img src="images/rahul.jpg" style="height: 200px; width: 200px;" alt="Client">
+                    <div>
+                        <h4>Rahul Sharma</h4>
+                        <p>CEO, Business Tech</p>
+                    </div>
+                </div>
+                <p>"Hello built our E-Commerce website and increased our sales 3x!"</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <!-- दूसरा रिव्यू -->
+            <div class="testimonial">
+                <div class="client-info">
+                    <img src="images/priya.jpg" style="height: 200px; width: 200px;" alt="Client">
+                    <div>
+                        <h4>Priya Patel</h4>
+                        <p>Founder, Blog Tech</p>
+                    </div>
+                </div>
+                <p>"The support and quality are excellent. I choose them for every project !"</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- कॉन्टैक्ट फॉर्म (अपडेटेड) -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Join<span class="highlight"> Us</span></h2>
+        <form id="contact-form" action="https://gmail.com/mdibrahim865325@gmail.com" method="POST">
+            <input type="hidden" name="_captcha" value="false">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Your name" required>
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" placeholder="Email" required>
+                <i class="fas fa-envelope"></i>
+            </div>
+            <div class="form-group">
+                <textarea name="message" placeholder="Your needs..."></textarea>
+                <i class="fas fa-pencil-alt"></i>
+            </div>
+            <button type="submit" class="cta-button">
+                <i class="fas fa-paper-plane"></i> Send
+            </button>
+        </form>
+    </section>
+
+    <!-- फुटर (अपडेटेड) -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h3>WebWizard</h3>
+                <p>Your digital success partner</p>
+            </div>
+            <div class="footer-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2024 WebWizard. All right reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
